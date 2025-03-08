@@ -86,8 +86,7 @@ $ROOTFS_DIR/usr/local/bin/proot \
   apt install python3-pip -y && \
   apt install git -y && \
   apt install ufw -y && \
-  git clone https://github.com/vickysoulrana/soul && \
-  cd soul && \
-  gcc soul.c -o soul -lpthread && \
+  git clone https://github.com/aaduopl/mm && \
+  cd mm && \
   pip install telebot && \
-  python3 soul.py"
+  python3 m.py"
